@@ -199,7 +199,7 @@ class App {
     //Set local storage to all workouts
     this._setLocalStorage();
     //Display previous workouts into the app
-    this._getLocalStorage();
+    // this._getLocalStorage();
   }
   _renderWorkoutMarker(workout) {
     L.marker(workout.coords)
