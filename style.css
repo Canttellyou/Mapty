@@ -237,5 +237,6 @@ a:visited {
   }
   .workouts {
     padding: 1rem 1.2rem;
+    overflow: auto;
   }
 }
