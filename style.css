@@ -26,7 +26,7 @@ body {
   font-weight: 400;
   line-height: 1.6;
   height: 100vh;
-  overscroll-behavior-y: none;
+  /* overscroll-behavior-y: none; */
 
   background-color: #fff;
   padding: 2.5rem;
@@ -219,8 +219,14 @@ a:visited {
   border-left: 5px solid var(--color-brand--1);
 }
 @media only screen and (max-width: 36em) {
-  .workout {
-    display: flex;
+  body {
     flex-direction: column;
+    padding: 0;
+  }
+  .sidebar {
+    height: 50vh;
+    flex-basis: initial;
+    padding: 3rem;
+    overflow-y: scroll;
   }
 }
