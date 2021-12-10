@@ -221,12 +221,12 @@ a:visited {
 @media only screen and (max-width: 36em) {
   body {
     flex-direction: column;
-    padding: 0;
+    padding: 0.5rem;
   }
   .sidebar {
     height: 50vh;
     flex-basis: initial;
-    padding: 3rem;
-    overflow-y: scroll;
+    padding: 1rem;
+    overflow: auto;
   }
 }
