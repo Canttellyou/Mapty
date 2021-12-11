@@ -227,7 +227,7 @@ a:visited {
     height: 50vh;
     flex-basis: initial;
     padding: 1rem;
-    overflow: auto;
+    overflow-y: auto;
   }
   .form {
     padding: 0.2rem 1.2rem;
@@ -237,7 +237,6 @@ a:visited {
   }
   .workouts {
     padding: 1rem 1.2rem;
-    overflow: auto;
   }
   .workout__value {
     font-size: 1.2rem !important;
