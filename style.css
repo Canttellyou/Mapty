@@ -42,9 +42,9 @@ a:visited {
 
 /* SIDEBAR */
 .sidebar {
-  flex-basis: 40rem;
+  flex-basis: 45rem;
   background-color: var(--color-dark--1);
-  padding: 3rem 5rem 4rem 5rem;
+  padding: 3rem;
   display: flex;
   flex-direction: column;
 }
@@ -237,6 +237,9 @@ a:visited {
   }
   .workouts {
     padding: 1rem 1.2rem;
-    overflow-x: scroll;
+    overflow: auto;
+  }
+  .workout__details {
+    font-size: 1rem;
   }
 }
