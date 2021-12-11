@@ -236,7 +236,8 @@ a:visited {
     font-size: 1.3rem;
   }
   .workouts {
-    padding: 1rem 1.2rem;
+    padding: 1rem 1.45rem;
+    overflow-x: auto;
   }
   .workout__value {
     font-size: 1.2rem !important;
